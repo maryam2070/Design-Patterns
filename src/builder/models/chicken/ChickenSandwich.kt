@@ -1,9 +1,7 @@
-package chicken_sandwich
+package builder.models.chicken
 
-import builder.Product
-import ingredients.Cheese
-import ingredients.Extras
-import ingredients.Sauce
+import builder.base.Product
+import builder.models.ingredients.*
 
 data class ChickenSandwich(
     val bun: Bun,
@@ -12,4 +10,3 @@ data class ChickenSandwich(
     val sauce: Sauce? = null,
     val extras: List<Extras> = emptyList(),
 ) : Product
-
