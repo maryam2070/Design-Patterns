@@ -1,4 +1,4 @@
-package burger_sandwich
+package builder.models.burger
 
 enum class BurgerBun {
     SESAME,
@@ -8,4 +8,3 @@ enum class BurgerBun {
     WHOLE_WHEAT,
     LETTUCE_WRAP,
 }
-
